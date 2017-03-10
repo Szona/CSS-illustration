@@ -19,7 +19,10 @@ body {
     margin: 10px;
 }
 
-.donut:hover {}
+.donut:hover {
+    animation: spin 2s linear 0s infinite;
+    box-shadow: none;
+}
 
 .donut::before {
     content: " ";
@@ -43,4 +46,13 @@ body {
     top: -50px;
     left: -50px;
     box-shadow: 20px 40px 0 red, 50px 25px 0 1px red, 30px 120px 0 1px blue, 80px 200px 0 red, 160px 95px 0 green, 180px 50px 0 1px blue, 190px 150px 0 yellow, 170px 165px 0 pink, 140px 20px 0 green, 100px -20px 0 yellow, 10px 170px 0 green, -20px 100px 0, 200px 90px red, 160px 200px blue;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
 }
