@@ -1,11 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script|Cookie');
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     height: 100vh;
     background: lightpink;
+    overflow: hidden;
+    font-family: 'Clicker Script', cursive;
+}
+
+section {
+    /*height: 100vh;*/
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    overflow: hidden;
+}
+
+p {
+    font-size: 4em;
+    color: #111B41;
+    text-align: center;
+    padding: 0.8em 0;
 }
 
 .donut {
@@ -55,4 +73,21 @@ body {
     100% {
         transform: rotate(0deg);
     }
+}
+
+
+}
+
+}
+
+}
+
+}
+
+}
+
+}
+
+}
+
 }
